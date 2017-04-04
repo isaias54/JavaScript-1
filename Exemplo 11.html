@@ -1,17 +1,29 @@
 <html>
 <head>
+<style>
+h1{
+float
+font-family: Arial;
+}
+</style>
 <meta charset="utf-8"/>
 <title>Exemplo 11 - Elvis</title>
 <script>
-function QuadradoDoNumero(numero){
+function quadradoDoNumero(numero){
 var resultado=numero*numero;
 alert ("O Resultado é igual a "+resultado);
 }
-
+function  Exemplo11 (nome, idade, cidade){
+window.document.write("Nome:"+nome+"<br>");
+window.document.write("Idade:"+idade+"<br>");
+window.document.write("Cidade:"+cidade+"<br>");
+}
 </script>
 </head>
 <body>
 <h1>Passando valor a uma função</h1>
-<script>QuadradoDoNumero(6);</script>
+<script>quadradoDoNumero(6);</script>
+<h1>Passando valores para uma função</h1>
+<script>Exemplo11 ("Aluno",16,"caucaia");</script>
 </body>
 </html>

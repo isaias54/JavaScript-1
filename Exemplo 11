@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Exemplo 11 - Elvis</title>
+<script>
+function QuadradoDoNumero(numero){
+var resultado=numero*numero;
+alert ("O Resultado é igual a "+resultado);
+}
+
+</script>
+</head>
+<body>
+<h1>Passando valor a uma função</h1>
+<script>QuadradoDoNumero(6);</script>
+</body>
+</html>

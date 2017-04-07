@@ -6,17 +6,14 @@
 body{
 background-color: #e3e3e3;
 font-family: Arial;
-
 }
 </style>
 <script>
-function cuboDoNumero(numero)
-{
+function cuboDoNumero(numero){
 	var cubo=numero*numero*numero;
 	return cubo;
 }
-function evento()
-{
+function evento(){
 	var num_valor=window.document.getElementById("num").value;
 	var resl="O cubo do número é igual a"+cuboDoNumero(num_valor);
 	window.document.getElementById("Mensagem").innerHTML=resl;
@@ -31,7 +28,7 @@ function evento()
 <td width="30"><input type="text" id="num" value="" size="7" placeholder="Digite o valor..."/></td>
 </tr>
 <tr>
-<td width="30" colspan="2" align="center"><input type="button" value="Calcular" onlick="evento()"/></td>
+<td width="30" colspan="2" align="center"><input type="button" value="Calcular" onclick="evento()"/></td>
 </tr>
 </table>
 <br>
